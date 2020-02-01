@@ -43,6 +43,7 @@ input, select {
 }
 
 input:focus {
+    outline: none;
     border-color: darkblue;
 }
 
@@ -158,5 +159,5 @@ button {
     button {
         width: 97%
     }
-    
+
     }
