@@ -1,4 +1,4 @@
-/* Tags */
+    /* Tags */
 
 body {
     margin: 0;
@@ -23,9 +23,21 @@ h1, h2, p {
     text-align: center;
 }
 
+hr, .first {
+    border: 3px solid black;
+    width: 90%
+}
+
+hr, .second, .third {
+    border: 2px solid black;
+    width: 90%
+}
+
 form {
     padding-top: 20px;
     background-color: #DCDCDC;
+    max-width: 1000px;
+    margin: auto;
 }
 
 fieldset {
@@ -34,6 +46,11 @@ fieldset {
 
 label {
     color: gray;
+}
+
+label .topics {
+    font-size: 16px;
+    color:gray;
 }
 
 input, select {
@@ -53,7 +70,9 @@ textarea {
     border: none;
 }
 
-
+form:focus-within {
+    border: 3px solid gray;
+}
 
 /* Classes */
 
@@ -73,7 +92,7 @@ textarea {
     font-size: 1.25em;
     color: black;
 }
-
+ 
 .heading {
     font-size: 16px;
     color:gray;
