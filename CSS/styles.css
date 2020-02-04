@@ -61,7 +61,8 @@ input, select {
 
 input:focus {
     outline: none;
-    border-color: darkblue;
+    border: 3px solid darkblue;
+    transition: border .5s ease-in-out;
 }
 
 textarea {
